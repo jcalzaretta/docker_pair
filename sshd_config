@@ -2,7 +2,7 @@ Protocol 2
 Port 222
 ListenAddress 0.0.0.0
 PubkeyAuthentication yes
-PasswordAuthentication yes
+PasswordAuthentication no
 AllowTcpForwarding no
 X11Forwarding no
 AllowUsers pair

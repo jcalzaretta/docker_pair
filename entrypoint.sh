@@ -13,7 +13,6 @@ adduser --shell /bin/bash --uid $base_uid pair
 # setup homedir
 mkdir -p /home/pair/.ssh && touch /home/pair/.ssh/authorized_keys
 chown -R pair:pair /home/pair
-echo "pair:abc123" | chpasswd
 
 for user in $@
 do
