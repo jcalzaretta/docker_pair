@@ -5,11 +5,6 @@ To build the image:
 make build
 ```
 
-To publish the image:
-```
-make publish
-```
-
 To run the container:
 ```
 buddy=someuser workdir=~/work make run
